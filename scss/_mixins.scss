@@ -1,0 +1,20 @@
+// display grid
+@mixin display-grid($columns,$rows) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+}
+
+// grid
+@mixin grid($column,$row) {
+    grid-column: $column;
+    grid-row: $row;
+}
+
+// display flex
+@mixin display-flex($direction,$align,$justify) {
+    display: flex;
+    flex-flow: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
