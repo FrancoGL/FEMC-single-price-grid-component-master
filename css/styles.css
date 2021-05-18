@@ -117,12 +117,12 @@ footer {
   }
 
   .card {
-    grid-template-columns: repeat(2, 23rem);
+    grid-template-columns: repeat(2, 23.6rem);
     grid-template-rows: 16rem 18rem;
   }
 
   section {
-    padding: 2rem;
+    padding: 2rem 3rem;
   }
 
   /*  ----- Intro ----- */
@@ -132,6 +132,7 @@ footer {
     border-radius: 10px 10px 0 0;
   }
   .intro .intro__title {
+    margin-top: 0.95rem;
     font-size: 1.9rem;
   }
   .intro .intro__subtitle {
