@@ -17,6 +17,7 @@ section {
 
 .card {
     @include display-grid(20.375rem,(repeat(3,1fr)));
+    box-shadow: 0px 4px 21px -10px rgba(0,0,0,0.5);
 }
 
 /* ----- Section: Intro ----- */
